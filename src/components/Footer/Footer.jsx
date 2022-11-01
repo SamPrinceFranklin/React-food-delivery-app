@@ -13,11 +13,10 @@ const Footer = () => {
         <Row>
           <Col lg="3" md="4" sm="6">
             <div className=" footer__logo text-start">
-              <img src={logo} alt="logo" />
-              <h5>Tasty Treat</h5>
+              
+              <h5>Unav</h5>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nesciunt pariatur accusamus
+                VIT Chennai's Online Restaruant
               </p>
             </div>
           </Col>
@@ -41,7 +40,7 @@ const Footer = () => {
             <h5 className="footer__title">Contact</h5>
             <ListGroup className="deliver__time-list">
               <ListGroupItem className=" delivery__time-item border-0 ps-0">
-                <p>Location: ZindaBazar, Sylhet-3100, Bangladesh</p>
+                <p>Location: VIT Chennai</p>
               </ListGroupItem>
               <ListGroupItem className=" delivery__time-item border-0 ps-0">
                 <span>Phone: 01712345678</span>
@@ -68,8 +67,7 @@ const Footer = () => {
         <Row className="mt-5">
           <Col lg="6" md="6">
             <p className="copyright__text">
-              Copyright - 2022, website made by Muhibur Rahman. All Rights
-              Reserved.
+              Copyright - 2022, website made for SCM Projecct
             </p>
           </Col>
           <Col lg="6" md="6">

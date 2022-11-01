@@ -105,8 +105,7 @@ const Home = () => {
                 </h1>
 
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-                  magni delectus tenetur autem, sint veritatis!
+                 VIT Chennai's Online Restaruant
                 </p>
 
                 <div className="hero__btns d-flex align-items-center gap-5 mt-4">
@@ -196,7 +195,7 @@ const Home = () => {
             <Col lg="12">
               <div className="food__category d-flex align-items-center justify-content-center gap-4">
                 <button
-                  className={`all__btn  ${
+                  className={`all__btn  ₹{
                     category === "ALL" ? "foodBtnActive" : ""
                   } `}
                   onClick={() => setCategory("ALL")}
@@ -204,7 +203,7 @@ const Home = () => {
                   All
                 </button>
                 <button
-                  className={`d-flex align-items-center gap-2 ${
+                  className={`d-flex align-items-center gap-2 ₹{
                     category === "BURGER" ? "foodBtnActive" : ""
                   } `}
                   onClick={() => setCategory("BURGER")}
@@ -214,7 +213,7 @@ const Home = () => {
                 </button>
 
                 <button
-                  className={`d-flex align-items-center gap-2 ${
+                  className={`d-flex align-items-center gap-2 ₹{
                     category === "PIZZA" ? "foodBtnActive" : ""
                   } `}
                   onClick={() => setCategory("PIZZA")}
@@ -224,7 +223,7 @@ const Home = () => {
                 </button>
 
                 <button
-                  className={`d-flex align-items-center gap-2 ${
+                  className={`d-flex align-items-center gap-2 ₹{
                     category === "BREAD" ? "foodBtnActive" : ""
                   } `}
                   onClick={() => setCategory("BREAD")}
@@ -254,7 +253,7 @@ const Home = () => {
             <Col lg="6" md="6">
               <div className="why__tasty-treat">
                 <h2 className="tasty__treat-title mb-4">
-                  Why <span>Tasty Treat?</span>
+                  Why <span>UNAV?</span>
                 </h2>
                 <p className="tasty__treat-desc">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -318,31 +317,7 @@ const Home = () => {
         </Container>
       </section>
 
-      <section>
-        <Container>
-          <Row>
-            <Col lg="6" md="6">
-              <div className="testimonial ">
-                <h5 className="testimonial__subtitle mb-4">Testimonial</h5>
-                <h2 className="testimonial__title mb-4">
-                  What our <span>customers</span> are saying
-                </h2>
-                <p className="testimonial__desc">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Distinctio quasi qui minus quos sit perspiciatis inventore
-                  quis provident placeat fugiat!
-                </p>
-
-                <TestimonialSlider />
-              </div>
-            </Col>
-
-            <Col lg="6" md="6">
-              <img src={networkImg} alt="testimonial-img" className="w-100" />
-            </Col>
-          </Row>
-        </Container>
-      </section>
+      
     </Helmet>
   );
 };
